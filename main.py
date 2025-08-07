@@ -3,6 +3,7 @@ This is the main.py to run the data processing and metrics calculations
 You will run this project from here, so make sure to set things up and return values accordingly
 Hint: Pay attention to the print statements below for both variable names and kinda of values you should return in the other files
 '''
+
 import numpy as np
 from src.preprocessing import load_data, process_data
 from src.metrics_calculation import calculate_metrics, calculate_sklearn_metrics
